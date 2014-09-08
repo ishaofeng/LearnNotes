@@ -72,3 +72,5 @@
     - BITPOS
     - BITOP
     - BITCOUN
+
+slaveof ip port  当前redis成为指定ip和port的redis的slave
