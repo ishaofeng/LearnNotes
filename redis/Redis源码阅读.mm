@@ -1,8 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1410055275242" ID="ID_1934580266" MODIFIED="1410228500982" STYLE="bubble" TEXT="Redis&#x6e90;&#x7801;&#x9605;&#x8bfb;">
-<node CREATED="1410055349655" FOLDED="true" HGAP="52" ID="ID_1042413360" MODIFIED="1410228549070" POSITION="right" STYLE="bubble" TEXT="&#x5185;&#x90e8;&#x6570;&#x636e;&#x7ed3;&#x6784;" VSHIFT="-83">
-<node CREATED="1410055391903" HGAP="187" ID="ID_489889611" MODIFIED="1410166186471" TEXT="dict" VSHIFT="-31">
+<node CREATED="1410055275242" ID="ID_1934580266" MODIFIED="1413594071338" STYLE="bubble" TEXT="Redis&#x6e90;&#x7801;&#x9605;&#x8bfb;">
+<node CREATED="1410055349655" HGAP="126" ID="ID_1042413360" MODIFIED="1413594124973" POSITION="right" STYLE="bubble" TEXT="&#x5185;&#x90e8;&#x6570;&#x636e;&#x7ed3;&#x6784;" VSHIFT="-89">
+<node CREATED="1410055391903" HGAP="187" ID="ID_489889611" MODIFIED="1413594125881" TEXT="dict" VSHIFT="-31">
 <node CREATED="1410055419641" HGAP="48" ID="ID_1141185547" MODIFIED="1410055986560" VSHIFT="-149">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -179,27 +179,6 @@
     </p>
   </body>
 </html></richcontent>
-</node>
-<node CREATED="1410166276095" HGAP="16" ID="ID_723199405" MODIFIED="1410166356318" VSHIFT="81">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#29992;&#36884;:
-    </p>
-    <p>
-      1.&#38190;&#31354;&#38388;
-    </p>
-    <p>
-      2.Hash&#31867;&#22411;&#30340;&#24213;&#23618;&#23454;&#29616;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1410163606930" HGAP="188" ID="ID_1914336849" MODIFIED="1410166267774" TEXT="sds" VSHIFT="124">
 <node CREATED="1410163753122" ID="ID_931293813" MODIFIED="1410165009646">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -227,6 +206,27 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1410166276095" HGAP="16" ID="ID_723199405" MODIFIED="1410166356318" VSHIFT="81">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#36884;:
+    </p>
+    <p>
+      1.&#38190;&#31354;&#38388;
+    </p>
+    <p>
+      2.Hash&#31867;&#22411;&#30340;&#24213;&#23618;&#23454;&#29616;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1410163606930" HGAP="188" ID="ID_1914336849" MODIFIED="1413594141893" TEXT="sds" VSHIFT="124">
 <node CREATED="1410164034820" HGAP="44" ID="ID_945660313" MODIFIED="1410164363361" VSHIFT="69">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -255,7 +255,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1410165127942" HGAP="163" ID="ID_1816398888" MODIFIED="1410166179801" TEXT="adlist(&#x53cc;&#x7aef;&#x5217;&#x8868;)" VSHIFT="1">
+<node CREATED="1410165127942" HGAP="194" ID="ID_1816398888" MODIFIED="1413594143684" TEXT="adlist(&#x53cc;&#x7aef;&#x5217;&#x8868;)" VSHIFT="101">
 <node CREATED="1410165233648" HGAP="34" ID="ID_500895177" MODIFIED="1410165595459" VSHIFT="-180">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -368,7 +368,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1410168017741" HGAP="150" ID="ID_1484356471" MODIFIED="1410168036230" TEXT="zskiplist(&#x8df3;&#x8dc3;&#x8868;)" VSHIFT="172">
+<node CREATED="1410168017741" HGAP="189" ID="ID_1484356471" MODIFIED="1413594145979" TEXT="zskiplist(&#x8df3;&#x8dc3;&#x8868;)" VSHIFT="107">
 <node CREATED="1410168078984" HGAP="42" ID="ID_530439974" MODIFIED="1410168165969" VSHIFT="-102">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -464,7 +464,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1410171571250" FOLDED="true" HGAP="49" ID="ID_1470526009" MODIFIED="1410228551934" POSITION="right" STYLE="bubble" VSHIFT="-65">
+<node CREATED="1410171571250" FOLDED="true" HGAP="190" ID="ID_1470526009" MODIFIED="1413594122325" POSITION="right" STYLE="bubble" VSHIFT="-67">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -605,7 +605,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1410173025266" HGAP="58" ID="ID_835086675" MODIFIED="1410233959980" POSITION="right" STYLE="bubble" VSHIFT="-35">
+<node CREATED="1410173025266" HGAP="188" ID="ID_835086675" MODIFIED="1413594168493" POSITION="right" STYLE="bubble" VSHIFT="-46">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -734,8 +734,7 @@
       &#160;&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1410226108431" HGAP="51" ID="ID_1600136244" MODIFIED="1410227081344" VSHIFT="76">
 <richcontent TYPE="NODE"><html>
@@ -798,8 +797,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1410227093803" HGAP="48" ID="ID_1930073662" MODIFIED="1410227586685" VSHIFT="13">
 <richcontent TYPE="NODE"><html>
@@ -838,8 +836,7 @@
       3) intset&#20445;&#23384;&#30340;&#25972;&#25968;&#20540;&#36229;&#36807;server.set_max_intset_entries (&#40664;&#35748;512) &#25110;&#32773; &#24448;&#38598;&#21512;&#20013;&#28155;&#21152;&#19968;&#20010;&#26032;&#20803;&#32032;&#36825;&#20010;&#20803;&#32032;&#19981;&#33021;&#36716;&#25442;&#20026;&#25972;&#25968;&#37027;&#20040;&#65292;&#38598;&#21512;&#30340;&#32534;&#30721;&#23558;&#20174;&#25972;&#25968;&#38598;&#21512;&#36716;&#25442;&#20026;&#23383;&#20856;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1410227588312" HGAP="48" ID="ID_1517179078" MODIFIED="1410228419995" VSHIFT="62">
 <richcontent TYPE="NODE"><html>
@@ -899,11 +896,10 @@
       2) &#26032;&#28155;&#21152;&#30340;&#20803;&#32032;&#38271;&#24230;&#22823;&#20110;&#26381;&#21153;&#22120;&#23646;&#24615;server.zset_max_ziplist_value (&#40664;&#35748;64)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1410228560462" HGAP="51" ID="ID_1073895485" MODIFIED="1410230621229" POSITION="right" VSHIFT="4">
+<node CREATED="1410228560462" HGAP="186" ID="ID_1073895485" MODIFIED="1413594155445" POSITION="right" VSHIFT="3">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -955,8 +951,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </map>
