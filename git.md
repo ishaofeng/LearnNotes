@@ -35,3 +35,5 @@
 
 * git push origin newfeature 在远端创建newfeature分支
 * git push origin :newfeature 删除远端的newfeature分支(还需要主动删除本地分支)
+
+* git merge --no-ff branch  保留分支信息的合并

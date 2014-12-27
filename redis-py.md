@@ -15,7 +15,7 @@ pool = redis.ConnectionPool(connection_class=YourConnectionClass, your_arg='')
 Redis的客户端实例是线程安全的, 命令执行从不修改客户端实例的内部状态
 
 >1. SELECT 用来切换指定的数据库, 该操作不是线程安全的redis-py中没有实现
->2. PubSub和Pipleline实例不能在不同县城间共享
+>2. PubSub和Pipleline实例不能在不同线程间共享
 
 ##5.Pipelines
 Piplelines是Redis类的子类用来缓存多条命令到服务器作为一个请求, 能够极大的提升性能
@@ -61,5 +61,3 @@ WATCH: 提供了在启动一个事务之前监控一个或多个键的能力, �
 
 忽略订阅信息
 r.pubsub(ignore_subscribe_messages=True)
-
-
