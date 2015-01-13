@@ -114,3 +114,26 @@ task count << {
         file(dir).listFiles({file -> file.isFile()}) as FileFilter).sort()
     }
 
+12.配置子项目
+    在父项目的根项目之下,寻找settings.gradle文件, 在该文件中设置想要包括到
+项目中构建的子项目
+    在构建的初始化阶段, gradle会根据settings.gradle文件来判断有哪些子项目
+被include到构建中, 并为每个子项目初始化一个Project对象, 在构建脚本中使用
+project(':sub-project-name')来引用子项目对应的Project对象
+
+13.共享配置
+    allprojects
+    subprojects
+    configure 部分项目配置
+        configure(subprojects.findAll{it.name.contains("war")}) {
+
+        }
+
+14.子项目独享配置
+方法一:
+   project(':core') {
+
+   }
+方法二:
+    在子项目中使用独立的build.gradle
+   
